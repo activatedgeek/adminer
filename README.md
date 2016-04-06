@@ -9,7 +9,7 @@
     </a>
     <td align="right">
     <a href="https://travis-ci.org/activatedgeek/docker-adminer">
-    <img src="https://travis-ci.org/activatedgeek/docker-adminer.png"/></td>
+    <img src="https://travis-ci.org/activatedgeek/docker-adminer.svg?branch=master"/></td>
   </tr>
 </table>
 
