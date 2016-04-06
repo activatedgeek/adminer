@@ -1,25 +1,14 @@
 # docker-adminer
 
-<table>
-  <tr>
-    <td>
-    <a href="https://travis-ci.org/activatedgeek/docker-adminer">
-    <img src="https://travis-ci.org/activatedgeek/docker-adminer.svg?branch=master"/></td>  
-    <td>
-    <a href="https://hub.docker.com/r/activatedgeek/adminer">
-    <img src="https://img.shields.io/imagelayers/image-size/activatedgeek/adminer/latest.svg"/>
-    </td>
-    </a>
-
-  </tr>
-</table>
+| [![Build Status](https://travis-ci.org/activatedgeek/docker-adminer.svg?branch=master)](https://travis-ci.org/activatedgeek/docker-adminer) | [![](https://badge.imagelayers.io/activatedgeek/adminer.svg)](https://hub.docker.com/r/activatedgeek/adminer) |
+|:-:|:-:|
 
 A docker image to run the lightweight `PHPMyAdmin` alternative called `Adminer`.
 Learn more about Adminer [here](https://www.adminer.org).
 
 ## Images
 
-* `latest`, `0.1.1` ([Dockerfile](./))
+* `latest`, `0.1`, `0.1.1` ([Dockerfile](./))
 
 ## Usage
 
@@ -37,7 +26,7 @@ $ docker run -d -p 9090:80 \
   activatedgeek/adminer:latest
 ```
 
-If you navigate to DOCKER_HOST:9090, you should see the adminer login page.
+If you navigate to `http://$DOCKER_HOST:9090`, you should see the `Adminer` login page.
 
 ## Build
 
