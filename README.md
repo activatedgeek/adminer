@@ -1,15 +1,16 @@
 # docker-adminer
 
-<table >
+<table>
   <tr>
-    <td align="left">
+    <td>
+    <a href="https://travis-ci.org/activatedgeek/docker-adminer">
+    <img src="https://travis-ci.org/activatedgeek/docker-adminer.svg?branch=master"/></td>  
+    <td>
     <a href="https://hub.docker.com/r/activatedgeek/adminer">
     <img src="https://img.shields.io/imagelayers/image-size/activatedgeek/adminer/latest.svg"/>
     </td>
     </a>
-    <td align="right">
-    <a href="https://travis-ci.org/activatedgeek/docker-adminer">
-    <img src="https://travis-ci.org/activatedgeek/docker-adminer.svg?branch=master"/></td>
+
   </tr>
 </table>
 
