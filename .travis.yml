@@ -1,0 +1,18 @@
+sudo: required
+
+services:
+  - docker
+
+script:
+  # build latest image always
+  - docker build -t activatedgeek/adminer:latest .
+  # build the tagged image if tag exists at current commit
+  - if [[ ! -z $TRAVIS_TAG ]]; then docker build -t activatedgeek/adminer:$TRAVIS_TAG .; else true ; fi
+
+after_success:
+  # job done if not master branch
+  - if [[ $TRAVIS_BRANCH != master ]]; then exit 0; else true ; fi
+  - docker login -e="$DOCKER_EMAIL" -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
+  - docker push activatedgeek/adminer:latest
+  # push tagged image if it exists
+  - if [[ ! -z $TRAVIS_TAG ]]; then docker push activatedgeek/adminer:$TRAVIS_TAG; else true ; fi

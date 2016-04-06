@@ -1,13 +1,24 @@
 # docker-adminer
 
-[![ImageLayers Size](https://img.shields.io/imagelayers/image-size/activatedgeek/adminer/latest.svg)](https://hub.docker.com/r/activatedgeek/adminer/)
+<table >
+  <tr>
+    <td align="left">
+    <a href="https://hub.docker.com/r/activatedgeek/adminer">
+    <img src="https://img.shields.io/imagelayers/image-size/activatedgeek/adminer/latest.svg"/>
+    </td>
+    </a>
+    <td align="right">
+    <a href="https://travis-ci.org/activatedgeek/docker-adminer">
+    <img src="https://travis-ci.org/activatedgeek/docker-adminer.png"/></td>
+  </tr>
+</table>
 
 A docker image to run the lightweight `PHPMyAdmin` alternative called `Adminer`.
 Learn more about Adminer [here](https://www.adminer.org).
 
 ## Images
 
-* `latest`, `0.1`, `0.1.0` ([Dockerfile](./))
+* `latest`, `0.1.1` ([Dockerfile](./))
 
 ## Usage
 
