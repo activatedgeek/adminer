@@ -3,12 +3,13 @@
 | [![Build Status](https://travis-ci.org/activatedgeek/docker-adminer.svg?branch=master)](https://travis-ci.org/activatedgeek/docker-adminer) | [![](https://imagelayers.io/badge/activatedgeek/adminer:latest.svg)](https://imagelayers.io/?images=activatedgeek/adminer:latest 'Get your own badge on imagelayers.io') |
 |:-:|:-:|
 
-A docker image to run the lightweight `PHPMyAdmin` alternative called `Adminer`.
+An Alpine-based docker image to run the lightweight `PHPMyAdmin` alternative called `Adminer`.
 Learn more about Adminer [here](https://www.adminer.org).
 
 ## Images
 
-* `latest`, `0.1`, `0.1.2` ([Dockerfile](./))
+* `latest`, `0.2`, `0.2.0` ([Dockerfile](./))
+* `0.1`, `0.1.2`
 
 ## Usage
 

@@ -3,15 +3,15 @@
 ##
 
 latest: Dockerfile
-	@docker build -t activatedgeek/adminer:latest .
+	@docker build -t activatedgeek/adminer:devel .
 
 run:
 	@docker run -d -p 9090:80 \
 		--name test-adminer \
-		activatedgeek/adminer:latest
+		activatedgeek/adminer:devel
 
 login:
-	@docker exec -it test-adminer bash
+	@docker exec -it test-adminer sh
 
 logs:
 	@docker logs test-adminer
