@@ -8,7 +8,7 @@ Learn more about Adminer [here](https://www.adminer.org).
 
 ## Images
 
-* `latest`, `0.2`, `0.2.0` ([Dockerfile](./))
+* `latest`, `0.2`, `0.2.1` ([Dockerfile](./))
 * `0.1`, `0.1.2`
 
 ## Usage
